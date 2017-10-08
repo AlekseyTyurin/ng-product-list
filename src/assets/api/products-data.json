@@ -1,11 +1,17 @@
-[{
+[
+  {
     "id": "1",
     "label": "97% off",
     "imageUrl": "assets/images/15495_images_108878610.jpg",
     "price": 99.99,
-  "oldPrice": 199.99,
+    "oldPrice": 199.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
-    "starRating": 5.00
+    "starRating": 5.00,
+    "retailer": "Amazon",
+    "status": true,
+    "timer": "02:34:43",
+    "shipping": true
+
   },
   {
     "id": "2",
@@ -14,7 +20,11 @@
     "price": 44.99,
     "oldPrice": 74.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
-    "starRating": 5.00
+    "starRating": 5.00,
+    "retailer": "Amazon",
+    "status": true,
+
+    "shipping": true
   },
   {
     "id": "3",
@@ -23,7 +33,11 @@
     "price": 67.99,
     "oldPrice": 97.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
-    "starRating": 5.00
+    "starRating": 5.00,
+    "retailer": "Amazon",
+    "status": false,
+
+    "shipping": true
   },
   {
     "id": "4",
@@ -32,7 +46,11 @@
     "price": 89.99,
     "oldPrice": 109.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
-    "starRating": 5.00
+    "starRating": 5.00,
+    "retailer": "Amazon",
+    "status": true,
+    "timer": "02:34:43",
+    "shipping": false
   },
   {
     "id": "5",
@@ -41,7 +59,11 @@
     "price": 23.99,
     "oldPrice": 43.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
-    "starRating": 5.00
+    "starRating": 5.00,
+    "retailer": "Amazon",
+    "status": false,
+    "timer": "02:34:43",
+    "shipping": false
   },
   {
     "id": "6",
@@ -50,6 +72,10 @@
     "price": 56.99,
     "oldPrice": 76.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
-    "starRating": 5.00
+    "starRating": 5.00,
+    "retailer": "Amazon",
+    "status": true,
+
+    "shipping": false
   }
 ]

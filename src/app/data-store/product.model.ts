@@ -6,4 +6,8 @@ export interface Product {
     price: number;
     description: string;
     starRating: number;
+    retailer: string;
+    status: boolean
+    timer?: string;
+    shipping: boolean;
 }
