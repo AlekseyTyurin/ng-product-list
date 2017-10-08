@@ -1,0 +1,49 @@
+[{
+    "id": "1",
+    "label": "97%",
+    "imageUrl": "assets/images/cannondale-supersix-evo-black-inc-277968-1.jpg",
+    "price": 99.99,
+    "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
+    "starRating": 5.00
+  },
+  {
+    "id": "2",
+    "label": "45%",
+    "imageUrl": "assets/images/cannondale-supersix-evo-black-inc-277968-1.jpg",
+    "price": 44.99,
+    "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
+    "starRating": 5.00
+  },
+  {
+    "id": "3",
+    "label": "Moulinex masterchef gourmet",
+    "imageUrl": "assets/images/cannondale-supersix-evo-black-inc-277968-1.jpg",
+    "price": 67.99,
+    "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
+    "starRating": 5.00
+  },
+  {
+    "id": "4",
+    "label": "Moulinex masterchef gourmet",
+    "imageUrl": "assets/images/cannondale-supersix-evo-black-inc-277968-1.jpg",
+    "price": 89.99,
+    "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
+    "starRating": 5.00
+  },
+  {
+    "id": "5",
+    "label": "Moulinex masterchef gourmet",
+    "imageUrl": "assets/images/cannondale-supersix-evo-black-inc-277968-1.jpg",
+    "price": 23.99,
+    "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
+    "starRating": 5.00
+  },
+  {
+    "id": "6",
+    "label": "Moulinex masterchef gourmet",
+    "imageUrl": "assets/images/cannondale-supersix-evo-black-inc-277968-1.jpg",
+    "price": 56.99,
+    "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
+    "starRating": 5.00
+  }
+]

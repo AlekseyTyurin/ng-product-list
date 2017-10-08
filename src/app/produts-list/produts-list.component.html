@@ -1,0 +1,11 @@
+<div class="container">
+    <ul class="grid">
+        <li class="grid-tile" *ngFor="let product of products; let i = index">
+            <div class="product-body" [ngClass]="{'first': i == '0', 'other': i != '0'}">
+                <div [ngClass]="{'circle-first': i == '0', 'circle-other': i != '0'}">{{product.label}}</div>
+                <img src="{{product.imageUrl}}">
+            </div>
+
+        </li>
+    </ul>
+</div>
