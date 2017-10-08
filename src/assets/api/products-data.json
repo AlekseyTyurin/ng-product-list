@@ -3,6 +3,7 @@
     "label": "97% off",
     "imageUrl": "assets/images/15495_images_108878610.jpg",
     "price": 99.99,
+  "oldPrice": 199.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
     "starRating": 5.00
   },
@@ -11,6 +12,7 @@
     "label": "68% off",
     "imageUrl": "assets/images/734943.jpg",
     "price": 44.99,
+    "oldPrice": 74.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
     "starRating": 5.00
   },
@@ -19,6 +21,7 @@
     "label": "66% off",
     "imageUrl": "assets/images/copy_princess_220120_59c518b32c19d_images_2235345612.jpg",
     "price": 67.99,
+    "oldPrice": 97.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
     "starRating": 5.00
   },
@@ -27,6 +30,7 @@
     "label": "45% off",
     "imageUrl": "assets/images/hotpoint_ariston_tt_22e_up0_images_1847820524.jpg",
     "price": 89.99,
+    "oldPrice": 109.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
     "starRating": 5.00
   },
@@ -35,6 +39,7 @@
     "label": "40% off",
     "imageUrl": "assets/images/moulinex-qa-401_images_83416214.jpg",
     "price": 23.99,
+    "oldPrice": 43.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
     "starRating": 5.00
   },
@@ -43,6 +48,7 @@
     "label": "32% off",
     "imageUrl": "assets/images/ves-electric-ci-9100_images_1490426199.jpg",
     "price": 56.99,
+    "oldPrice": 76.99,
     "description": "The powerful and versatile kitchen machine for effortless meals! Equipped with multiple attachments (blender, shredder/slicer, juice extractor and meat mincer) for a varied preparation",
     "starRating": 5.00
   }

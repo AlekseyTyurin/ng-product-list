@@ -6,11 +6,13 @@ import {ProductsService} from "./services/products.service";
 import {HttpModule} from "@angular/http";
 import {FormsModule} from "@angular/forms";
 import {CommonModule} from "@angular/common";
+import { CharLimitPipe } from './pipes/char-limit.pipe';
 
 @NgModule({
     declarations: [
         AppComponent,
-        ProdutsListComponent
+        ProdutsListComponent,
+        CharLimitPipe
     ],
     imports: [
         CommonModule,

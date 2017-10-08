@@ -2,10 +2,13 @@
     <ul class="grid">
         <li class="grid-tile" *ngFor="let product of products; let i = index">
             <div class="product-body" [ngClass]="{'first': i == '0', 'other': i != '0'}">
-                <div [ngClass]="{'circle-first': i == '0', 'circle-other': i != '0'}">{{product.label}}</div>
+                <span [ngClass]="{'circle-first': i == '0', 'circle-other': i != '0'}">{{product.label}}</span>
                 <img src="{{product.imageUrl}}">
-            </div>
+                <!--<span class="description-text">{{product.description | charLimit: 130}}</span>-->
+                <span class="new-price">{{product.price}}</span>
+                <span class="strikethrough">{{product.oldPrice}}</span>
 
+            </div>
         </li>
     </ul>
 </div>

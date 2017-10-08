@@ -84,3 +84,24 @@ ul.grid {
     left: 200px;
 }
 
+.strikethrough {
+    color: lightgrey;
+    position: relative;
+    font-size: 12px;
+}
+.new-price{
+    font-size: 24px;
+}
+
+.strikethrough:before {
+    border-bottom: 3px solid lightgrey;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    transform: rotate(-7deg);
+}
+
+.description-text {
+    font-size: 14px;
+}
