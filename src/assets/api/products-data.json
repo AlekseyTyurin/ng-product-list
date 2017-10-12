@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "label": "97% off",
+    "discount": 72,
     "imageUrl": "assets/images/15495_images_108878610.jpg",
     "price": 99.99,
     "oldPrice": 199.99,
@@ -15,7 +15,7 @@
   },
   {
     "id": "2",
-    "label": "68% off",
+    "discount": 68,
     "imageUrl": "assets/images/734943.jpg",
     "price": 44.99,
     "oldPrice": 74.99,
@@ -23,12 +23,11 @@
     "starRating": 5.00,
     "retailer": "Amazon",
     "status": true,
-
     "shipping": true
   },
   {
     "id": "3",
-    "label": "66% off",
+    "discount": 66,
     "imageUrl": "assets/images/copy_princess_220120_59c518b32c19d_images_2235345612.jpg",
     "price": 67.99,
     "oldPrice": 97.99,
@@ -41,7 +40,7 @@
   },
   {
     "id": "4",
-    "label": "45% off",
+    "discount": 45,
     "imageUrl": "assets/images/hotpoint_ariston_tt_22e_up0_images_1847820524.jpg",
     "price": 89.99,
     "oldPrice": 109.99,
@@ -54,7 +53,7 @@
   },
   {
     "id": "5",
-    "label": "40% off",
+    "discount": 40,
     "imageUrl": "assets/images/moulinex-qa-401_images_83416214.jpg",
     "price": 23.99,
     "oldPrice": 43.99,
@@ -67,7 +66,7 @@
   },
   {
     "id": "6",
-    "label": "32% off",
+    "discount": 75,
     "imageUrl": "assets/images/ves-electric-ci-9100_images_1490426199.jpg",
     "price": 56.99,
     "oldPrice": 76.99,
@@ -75,7 +74,6 @@
     "starRating": 5.00,
     "retailer": "Amazon",
     "status": true,
-
     "shipping": false
   }
 ]

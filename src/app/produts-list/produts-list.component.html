@@ -1,14 +1,39 @@
-<div class="container">
-    <ul class="grid">
-        <li class="grid-tile" *ngFor="let product of products; let i = index">
-            <div class="product-body" [ngClass]="{'first': i == '0', 'other': i != '0'}">
-                <span [ngClass]="{'circle-first': i == '0', 'circle-other': i != '0'}">{{product.label}}</span>
-                <img src="{{product.imageUrl}}">
-                <!--<span class="description-text">{{product.description | charLimit: 130}}</span>-->
-                <span class="new-price">{{product.price}}</span>
-                <span class="strikethrough">{{product.oldPrice}}</span>
-
+<div class="goods clearfix">
+    <div class="list " *ngFor="let product of products; let i = index"
+         [ngClass]="{'clearfix': i == '0', 'first': i == '0'}">
+        <a href="">
+            <div class="round" [ngClass]="{
+                     'pink': product.discount >= '70' && product.discount <= '80',
+                     'orange': product.discount >= '60' && product.discount <= '70',
+                     'yellow': product.discount >= '40' && product.discount <= '60'}">
+                <p class="discount"
+                   >
+                    {{product.discount}}%<br>off</p>
             </div>
-        </li>
-    </ul>
+
+            <div class="card-body">
+                <img [ngClass]="{'main-image': i == '0', 'other-image': i != '0'}" src="{{product.imageUrl}}">
+                <div class="middle" [ngClass]="{'reverse': i != '0'}">
+                    <div class="clearfix">
+                        <p class="new-price" [ngClass]="{
+                     'pink-price': product.discount >= '70' && product.discount <= '80',
+                     'orange-price': product.discount >= '60' && product.discount <= '70',
+                     'yellow-price': product.discount >= '40' && product.discount <= '60'}">{{product.price | currency:'USD':true}}</p>
+                        <p class="strikethrough">{{product.oldPrice | currency:'USD':true}}</p>
+                        <p class="vendor">{{product.retailer}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="title" [ngClass]="{'hide': i != '0'}">
+                    <p>{{product.description | charLimit: 100}}</p>
+                </div>
+                <div class="clearfix">
+                    <p>Price</p>
+                    <p>Timer</p>
+                    <p>Free</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>

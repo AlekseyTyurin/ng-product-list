@@ -16,8 +16,6 @@ export class ProdutsListComponent implements OnInit {
 
     ngOnInit() {
         this.getAllProducts();
-
-
     }
 
     public getAllProducts() {
@@ -27,4 +25,5 @@ export class ProdutsListComponent implements OnInit {
                 (error) => this.errorMessage = <any>error
             )
     }
+
 }
