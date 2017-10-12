@@ -32,9 +32,9 @@
                     <p>{{product.description | charLimit: 100}}</p>
                 </div>
                 <div class="clearfix">
-                    <p>Price</p>
-                    <p>Timer</p>
-                    <p>Free</p>
+                    <p *ngIf="product.shipping">Free Shiping</p>
+                    <p *ngIf="product.status">New</p>
+                    <p>{{product.timer}}</p>
                 </div>
             </div>
         </a>
