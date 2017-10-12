@@ -1,7 +1,10 @@
 <div class="goods clearfix">
     <div class="list " *ngFor="let product of products; let i = index"
          [ngClass]="{'clearfix': i == '0', 'first': i == '0'}">
-        <a href="">
+        <a href="" [ngClass]="{
+                     'border-pink': product.discount >= '70' && product.discount <= '80',
+                     'border-orange': product.discount >= '60' && product.discount <= '70',
+                     'border-yellow': product.discount >= '40' && product.discount <= '60'}">
             <div class="round" [ngClass]="{
                      'pink': product.discount >= '70' && product.discount <= '80',
                      'orange': product.discount >= '60' && product.discount <= '70',
